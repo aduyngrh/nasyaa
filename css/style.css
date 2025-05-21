@@ -144,6 +144,27 @@ i:hover {
     color: grey;
 }
 
+.heartbeat{
+    display: inline-block;
+    animation: beat 1s infinite;
+    transform-origin: center;
+}
+
+@keyframes beat{
+    0%, 100%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.2);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+}
+
 
 
 /* css page 2 */
